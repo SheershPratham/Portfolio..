@@ -353,7 +353,7 @@ hero.addEventListener('mouseleave',function(){mon.style.transform=''})}
 </script>
 <div class="vm" id="vm" hidden role="dialog" aria-modal="true" aria-label="Video player"><div class="vm-box"><button class="vm-x" aria-label="Close video">✕</button><div class="vm-frame" id="vmf"></div></div></div>
 <script>
-(function(){var V=[['vid/w.mp4',1],['vid/o.mp4',1],['vid/r.mp4',1],['vid/k.mp4',0],['vid/s.mp4',1]];var d=document,m=d.getElementById('vm'),f=d.getElementById('vmf'),last;
+(function(){var V=[['./w.mp4',1],['./o.mp4',1],['./r.mp4',1],['./k.mp4',0],['./s.mp4',1]];var d=document,m=d.getElementById('vm'),f=d.getElementById('vmf'),last;
 function info(u){var y=u.match(/youtube\.com\/shorts\/([\w-]+)/),g=u.match(/drive\.google\.com\/file\/d\/([\w-]+)/);
 if(y)return{src:'https://www.youtube-nocookie.com/embed/'+y[1]+'?autoplay=1&rel=0&playsinline=1',tall:1};
 if(g)return{src:'https://drive.google.com/file/d/'+g[1]+'/preview',tall:0}}
